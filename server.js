@@ -7,7 +7,6 @@ const chat = new ChatServer(server);
 
 app.use(chat.expressMiddleware());
 
-app.use(express.static(__dirname + '/../client/build'));
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', (req, res) => {

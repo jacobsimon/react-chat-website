@@ -29,6 +29,19 @@ header h1 {
   font-size: 2.4rem;
   font-weight: 600;
   color: #7f47f5;
+  display: inline-block;
+}
+
+header .links {
+  line-height: 30px;
+  float: right;
+  display: inline-block;
+  margin-right: 100px;
+}
+
+header a, header iframe {
+  padding: 0 10px 0;
+  vertical-align: middle;
 }
 
 .content {
@@ -40,7 +53,7 @@ header h1 {
 .content h1 {
   font-size: 3.6rem;
   font-weight: 400;
-  max-width: 50%;
+  max-width: 60%;
 }
 
 section {
