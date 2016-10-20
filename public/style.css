@@ -97,3 +97,48 @@ footer p {
   padding: 0;
   margin: 0;
 }
+
+/* Highlight.js theme */
+
+pre code {
+  display: block;
+  background: white;
+  color: #4d4d4c;
+  font-family: Menlo, Monaco, Consolas, monospace;
+  line-height: 1.5;
+  border: 1px solid #eeeeee;
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+pre .hljs-comment,
+pre .hljs-title {
+  color: #8e908c;
+}
+
+pre .hljs-number,
+pre .hljs-preprocessor,
+pre .hljs-built_in,
+pre .hljs-literal,
+pre .hljs-params,
+pre .hljs-constant {
+  color: #f5871f;
+}
+
+pre .hljs-string,
+pre .hljs-value,
+pre .hljs-inheritance,
+pre .hljs-header {
+  color: #8959a8;
+}
+
+pre .hljs-function,
+pre .javascript .hljs-title {
+  color: #4271ae;
+}
+
+pre .hljs-keyword,
+pre .javascript .hljs-function {
+  color: #8959a8;
+}
