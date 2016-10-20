@@ -19,6 +19,6 @@
   },
   "dependencies": {
     "express": "^4.14.0",
-    "react-chat-server": "^0.1.0"
+    "react-chat-server": "^0.1.1"
   }
 }
